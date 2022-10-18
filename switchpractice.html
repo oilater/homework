@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const input = Number(prompt('숫자를 입력하시오', 0));
+            
+        switch (input % 2) {
+            case 0:
+                alert('짝수입니다.')
+                break;
+                // 브레이크를 만나는 순간 틀을 벗어난다~
+            case 1:
+                alert('홀수입니다'); 
+                break;
+            default: 
+                alert('숫자가 아닙니다.');
+                break;
+                // default 생략가능
+        }
+
+</script>
+</body>
+</html>
