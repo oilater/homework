@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     const first = Number(prompt("첫번째 정수를 입력하시오"));
+     const second = Number(prompt("두번째 정수를 입력하시오"));
+     const third = Number(prompt("세번째 정수를 입력하시오"));
+        
+     console.log(first + second + third);
+
+    var max = first;
+
+    if (max < second) {
+        max = second;
+    }
+    if (max < third) {
+        max = third;
+    }
+    document.write(`최댓값은 ` + max + `입니다.`)
+
+    // if(first > (second || third)){
+    //     document.write(first);
+    // } else if(second > (first || third)) {
+    //     document.write(second);
+    // } else if(third > (first || second)) {
+    //     document.write(third);
+    // }
+
+    var min = first;
+
+    if (min > second) {
+        min = second;
+    } else if(min > third) {
+        min = third;
+    }
+
+    document.write(`최솟값은 ` + min + `입니다.`)
+
+document.write(`평균은` + (first+second+third)/3 + `입니다`)
+
+
+
+
+    </script>
+</body>
+</html>

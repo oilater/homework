@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function bmi1(weight, height) {
+        let bmi = weight / (height * height);
+        console.log(bmi);
+        return bmi;
+        }
+
+    let result1 = bmi1(80, 180)
+    console.log(result1);
+    
+
+
+const bmi2 = function(weight, height) {
+    let bmi2 = weight / (height * height);
+    console.log(bmi2);
+    return bmi2;
+}
+let result2 = bmi2(81, 180)
+    console.log(result2);
+
+
+
+
+const bmi3 = (weight, height) => weight / (height * height)
+console.log(bmi3);
+
+let result3 = bmi3(81, 180)
+console.log(result3);
+
+
+
+// const bmi = (weight, height) => weight / (height * height) 
+//     console.log(bmi);
+//     return bmi;    
+// }
+
+        // function sum(a, b) {
+        //     let sum = a + b;
+        //     console.log(sum);
+        //     return sum;
+         //return 문을 만나면 함수는 끝난다.
+        // const sum = function(a, b){
+        //     let sum = a + b
+        //     console.log(sum);
+        // }
+
+
+    //     const sum2 = a => {
+    //     let sum = a;
+    //     console.log(sum);
+    // }
+
+//        let result = sum(1, 2)
+//        console.log(result)
+//         // sum(3, 4)
+//         // sum(10, 10)
+//         sum(1)
+
+// </script>
+</body>
+</html>
